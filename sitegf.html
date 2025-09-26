@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>amo voce bea</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div id="login-screen" class="login-screen">
+        <div class="login-box">
+            <div class="gif-area">
+                <img src="https://media.tenor.com/nq5mtWwKXbgAAAAj/chiikawa-love.gif" alt="gif fofo">
+            </div>
+
+            <h2>digite o codigo</h2>
+            <div class="password-display" id="password-display"></div>
+
+            <div class="keypad">
+                <button onclick="addDigit('1')">1</button>
+                <button onclick="addDigit('2')">2</button>
+                <button onclick="addDigit('3')">3</button>
+                <button onclick="addDigit('4')">4</button>
+                <button onclick="addDigit('5')">5</button>
+                <button onclick="addDigit('6')">6</button>
+                <button onclick="addDigit('7')">7</button>
+                <button onclick="addDigit('8')">8</button>
+                <button onclick="addDigit('9')">9</button>
+                <button onclick="clearPassword()">⌫</button>
+                <button onclick="addDigit('0')">0</button>
+                <button onclick="checkPassword()">✔</button>
+            </div>
+
+            <p id="error" class="error"></p>
+        </div>
+    </div>
+
+    <div id="main-content" class="hidden">
+        <header class="header">
+            <h1>੭ ̥ ︵︵ॱ ̟ ﹕ ꒰ᐢ • ˕ • ᐢ꒱ ﹕ ̟ ॱ ︵︵ ̥ ੭</h1>
+            <p>espero que goste disso que fiz as 01:30 da manha rs</p>
+        </header>
+
+        <main class="content">
+            <section class="card">
+                <h2>bobera</h2>
+                <p>to fazendo esse pequeno textinho pq voce disse que gosta de textinhos ne, entao eu so queria demonstrar um pouco mais do que eu sou capaz apenas com esse site html aqui q eu to fazendo as 1:30 da manha pensando em voce ne rs, eu n sei nem oq te dizer de fato pq o tanto de coisa que eu ja disse nao ta escrito, parece que o ''eu te amo'' ta insignificante. eu preciso entrar dentro da sua alma e se abraçar a ela isso sim, mas parando por aqui, eu so te digo mesmo que, de fé acho que nunca senti algo antes igual to sentindo por voce, esse texto serve como reconciliação de alguns erros meus que eu cometo e que, de mesma maneira sempre me sinto arrependido, um exemplo é seu passado e, eu sei, é foda rsrsrs, mas eu to aprendendo a relevar e, era so isso mesmo, desculpa pelos meus atos de erro e, espero que voce veja esse garoto esforçado, bom e doce pra voce pro resto da vida. eu te amo minha princesinha ainda vo casa cum vuse</p>
+            </section>
+
+            <section class="card">
+                <h2>fotinhas nossas so pra lembrar que um dia teremos fotos juntos fisicamente</h2>
+                <div class="gallery" id="gallery-container">
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420969340332802109/RobloxScreenShot20250907_135359012.png?ex=68d75453&is=68d602d3&hm=7ea4f97ab27ae67a695b25e40fd55c3abeb9b64c759b8c76ff13030b95da79d0&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420969340332802109/RobloxScreenShot20250907_135359012.png?ex=68d75453&is=68d602d3&hm=7ea4f97ab27ae67a695b25e40fd55c3abeb9b64c759b8c76ff13030b95da79d0&" alt="Foto 1">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420966951743783043/Captura_de_tela_2025-08-16_153632.png?ex=68d75219&is=68d60099&hm=c3e0b51bd2d1337b0ac7c8e748ad18ea032ccaac217fdaba1eac25a5eb754410&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420966951743783043/Captura_de_tela_2025-08-16_153632.png?ex=68d75219&is=68d60099&hm=c3e0b51bd2d1337b0ac7c8e748ad18ea032ccaac217fdaba1eac25a5eb754410&" alt="Foto 2">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420966952083394560/Captura_de_tela_2025-08-09_151715.png?ex=68d75219&is=68d60099&hm=48694b27711e223b80f8259914a9e00ba8441da4b3304aa773c396a666c44129&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420966952083394560/Captura_de_tela_2025-08-09_151715.png?ex=68d75219&is=68d60099&hm=48694b27711e223b80f8259914a9e00ba8441da4b3304aa773c396a666c44129&" alt="Foto 3">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420966951236407387/Captura_de_tela_2025-08-16_124658.png?ex=68d75219&is=68d60099&hm=6d5b900ef22bd3bc33040682a97a2239c6964f505871ca9fb0c457d0bd1fff48&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420966951236407387/Captura_de_tela_2025-08-16_124658.png?ex=68d75219&is=68d60099&hm=6d5b900ef22bd3bc33040682a97a2239c6964f505871ca9fb0c457d0bd1fff48&" alt="Foto 4">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420970242426929204/IMG_20250827_125146_393.webp?ex=68d7552a&is=68d603aa&hm=eb2209343465da4c7be4d69bcb0f4e0ee8edbdca52d1ad1b2cdd6de8b342172d&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420970242426929204/IMG_20250827_125146_393.webp?ex=68d7552a&is=68d603aa&hm=eb2209343465da4c7be4d69bcb0f4e0ee8edbdca52d1ad1b2cdd6de8b342172d&" alt="Foto 5">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420970240896008323/IMG-20250915-WA0018.jpg?ex=68d75529&is=68d603a9&hm=14523c24735fd9ee8685a8e0e8d7e6be5c575938820c9d3a6c24435960dd3dc7&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420970240896008323/IMG-20250915-WA0018.jpg?ex=68d75529&is=68d603a9&hm=14523c24735fd9ee8685a8e0e8d7e6be5c575938820c9d3a6c24435960dd3dc7&" alt="Foto 6">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420971401761788024/IMG-20250813-WA0014.jpg?ex=68d7563e&is=68d604be&hm=cf2b865d20d795631e30eaeb6110a2521d659dbb782a0cc9b88ac3502d73abb6&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420971401761788024/IMG-20250813-WA0014.jpg?ex=68d7563e&is=68d604be&hm=cf2b865d20d795631e30eaeb6110a2521d659dbb782a0cc9b88ac3502d73abb6&" alt="Foto 7">
+                    </a>
+                    <a href="https://cdn.discordapp.com/attachments/1209991381255454852/1420971402189738067/IMG-20250805-WA0508.jpg?ex=68d7563e&is=68d604be&hm=4d69a8aa03c14548b3e12d8bd33dc28ce70e9ba9f8f572789689f771af848ef4&" class="photo-link">
+                        <img src="https://cdn.discordapp.com/attachments/1209991381255454852/1420971402189738067/IMG-20250805-WA0508.jpg?ex=68d7563e&is=68d604be&hm=4d69a8aa03c14548b3e12d8bd33dc28ce70e9ba9f8f572789689f771af848ef4&" alt="Foto 8">
+                    </a>
+                </div>
+            </section>
+                    
+                    <div class="card">
+                        <h3>meus planus cum vuse</h3>
+                        <ul class="idea-list">
+                            <li>dormir juntinho pra sempre</li>
+                            <li>cozinhar com voce</li>
+                            <li>conversar com sua familia</li>
+                            <li>casar com voce</li>
+                            <li>ter nossos filhos</li>
+                            <li>ter nossa casinha cheia de gatinhos fofos</li>
+                            <li>te encher de mimos</li>
+                            <li>(ja é tarde e eu to me perdendo ja nos pensamento, é tanta coisa que nem sei mais oq quero com voce, eu, eu quero apenas tudo, MAS QUE SEJA COM VOCE)</li>
+                        </ul>
+                    </div>
+                    
+                    <div class="card">
+                        <h3>uma lembranca minha aqui so</h3>
+                        <p>e tudo meio novo e recente mas, pra mim, parece que eu te ofereci aquele sorvete de baunilha a 3 anos ja e, a gente e casado kkkkkkkk, eu vivo toda noite pensando nisso e, eu fico feliz por ter conseguido alguem tao especial na minha vida como voce em um momento tao ruim, voce ta me curando de doencas que antes pensava que jamais existiria cura. eu amo voce.</p>
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+
+    <div id="modal" class="modal">
+      <span class="close-btn">&times;</span>
+      <img class="modal-content" id="modal-image">
+    </div>
+
+    <script>
+        let password = "";
+        const correctPassword = "2610";
+
+        function addDigit(digit) {
+            if (password.length < 8) {
+                password += digit;
+                updateDisplay();
+            }
+        }
+
+        function clearPassword() {
+            password = password.slice(0, -1);
+            updateDisplay();
+        }
+
+        function updateDisplay() {
+            document.getElementById("password-display").textContent = "•".repeat(password.length);
+        }
+
+        function checkPassword() {
+            const error = document.getElementById("error");
+            if (password === correctPassword) {
+                document.getElementById("login-screen").style.display = "none";
+                document.getElementById("main-content").classList.remove("hidden");
+                history.pushState(null, null, 'messages.html');
+            } else {
+                error.textContent = "Senha incorreta 😿";
+                password = "";
+                updateDisplay();
+            }
+        }
+
+        window.addEventListener('popstate', function(event) {
+            document.getElementById("login-screen").style.display = "flex";
+            document.getElementById("main-content").classList.add("hidden");
+        });
+
+        // Novo script para a galeria de fotos
+        const modal = document.getElementById('modal');
+        const modalImage = document.getElementById('modal-image');
+        const closeBtn = document.querySelector('.close-btn');
+        const galleryContainer = document.getElementById('gallery-container');
+
+        galleryContainer.addEventListener('click', function(event) {
+            if (event.target.tagName === 'IMG') {
+                event.preventDefault(); // Impede o comportamento padrão do link
+                const link = event.target.closest('a');
+                if (link) {
+                    modal.style.display = 'block';
+                    modalImage.src = link.href;
+                }
+            }
+        });
+
+        closeBtn.addEventListener('click', function() {
+            modal.style.display = 'none';
+        });
+
+        modal.addEventListener('click', function(event) {
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
